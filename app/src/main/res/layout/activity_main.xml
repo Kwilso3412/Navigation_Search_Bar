@@ -9,11 +9,11 @@
 
     //after the creation of the nav_menu.xml we changed to a RelativeLayout
 
-    //will create the list for the countries
+    /*will create the list for the countries and display it in  */
     <ListView
+        android:id="@+id/lv_ListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lv_ListView"/>
+        android:layout_height="wrap_content" />
 
     //This is used to show that there are no results
     <TextView
@@ -24,9 +24,5 @@
         android:text="No Results"
         android:textSize="20sp"
         android:visibility="gone"/>
-
-
-
-
 
 </RelativeLayout>
